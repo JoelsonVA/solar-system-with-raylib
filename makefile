@@ -3,7 +3,7 @@ CXXFLAGS = -Wall -std=c++17
 LIBS = -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
 
 SRC = main.cpp Sun.cpp Planets.cpp Sun.h Planets.h
-OUT = teste
+OUT = solar_system
 
 all:
 	$(CXX) $(CXXFLAGS) $(SRC) -o $(OUT) $(LIBS)
