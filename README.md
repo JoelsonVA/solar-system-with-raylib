@@ -44,11 +44,27 @@ Solar System
 ## Build 
 - Compile the project using:
 make
+- Recommended evironment: Linux
 
 ## Run 
 - Run the program with:
 
 ./solar_system
+
+
+## Dependencies 
+
+ - This project requires Raylib to be installed.
+
+
+ ### Ubuntu / Debian
+
+ - sudo apt install libraylib-dev
+
+
+ ### Arch Linux
+
+ - sudo pacman -S raylib
 
 
 ## Future improvements 
