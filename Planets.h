@@ -10,20 +10,67 @@ class Planet {
     
     int mass;
 
-    float angle = 0.0f;
+    float angle;
 
-    float orbitRadius = 150.0f;
+    float orbitRadius;
 
-    float speed = 0.5f;
+    float speed;
 
 
     Planet();
+   
     void draw(float sunX, float sunY);
     void update();
 };
 
 
+class mars {
+    public:
 
+     int size;
+    
+    int mass;
+
+    float angle;
+
+    float orbitRadius;
+
+    float speed;
+
+
+    mars();
+   
+    void draw(float sunX, float sunY);
+    void update();
+
+
+
+};
+
+
+class mercury {
+ 
+    public:
+
+
+    int size;
+    
+    int mass;
+
+    float angle;
+
+    float orbitRadius;
+
+    float speed;
+
+
+    mercury();
+   
+    void draw(float sunX, float sunY);
+    void update();
+
+
+};
 
 
 

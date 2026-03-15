@@ -7,8 +7,11 @@
 
 int main(){
    
- Planet world;  
+ Planet world;
+ mars redPlanet;  
+ mercury Hotrock;
  Sun sol;
+
     
 
 
@@ -24,9 +27,18 @@ int main(){
         
         BeginDrawing();
         ClearBackground(BLACK);
+        
         sol.draw();
-         world.update();
-         world.draw(400,400);
+
+        redPlanet.update();
+        redPlanet.draw(400,400);
+
+        Hotrock.update();
+        Hotrock.draw(400,400);
+        
+        world.update();
+         
+        world.draw(400,400);
       
 
 
