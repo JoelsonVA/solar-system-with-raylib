@@ -1,5 +1,7 @@
 # Solar System Simulation 
 
+![Demo](DEMO.gif)
+
 A simple solar system simulation built in c++ using Raylib.
 
 ## Features 

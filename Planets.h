@@ -3,7 +3,7 @@
 
 
 
-class Planet {
+class earth {
     public:
     
     int size;
@@ -17,7 +17,7 @@ class Planet {
     float speed;
 
 
-    Planet();
+    earth();
    
     void draw(float sunX, float sunY);
     void update();
@@ -68,6 +68,128 @@ class mercury {
    
     void draw(float sunX, float sunY);
     void update();
+
+
+};
+
+class venus {
+
+    public:
+
+    int size;
+    
+    int mass;
+
+    float angle;
+
+    float orbitRadius;
+
+    float speed;
+
+
+    venus();
+   
+    void draw(float sunX, float sunY);
+    void update();
+
+
+
+};
+
+class jupiter {
+
+    public:
+
+    int size;
+    
+    int mass;
+
+    float angle;
+
+    float orbitRadius;
+
+    float speed;
+
+
+    jupiter();
+   
+    void draw(float sunX, float sunY);
+    void update();
+
+
+
+};
+
+class saturn {
+
+    public:
+
+    int size;
+    
+    int mass;
+
+    float angle;
+
+    float orbitRadius;
+
+    float speed;
+
+
+    saturn();
+   
+    void draw(float sunX, float sunY);
+    void update();
+
+
+
+};
+
+
+class uranus {
+
+    public:
+
+    int size;
+    
+    int mass;
+
+    float angle;
+
+    float orbitRadius;
+
+    float speed;
+
+
+    uranus();
+   
+    void draw(float sunX, float sunY);
+    void update();
+
+
+
+};
+
+
+class neptune {
+
+    public:
+
+    int size;
+    
+    int mass;
+
+    float angle;
+
+    float orbitRadius;
+
+    float speed;
+
+
+    neptune();
+   
+    void draw(float sunX, float sunY);
+    void update();
+
 
 
 };
